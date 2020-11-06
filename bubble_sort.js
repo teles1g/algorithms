@@ -1,4 +1,4 @@
-let array = [80, 24, 65, 78, 90, 100];
+let array = [80, 60, 40, 20];
 
 for (let i = 0; i < array.length; i++) {
   
@@ -10,8 +10,6 @@ for (let i = 0; i < array.length; i++) {
       array[j + 1] = array[j];
       array[j] = next;
     }
-
-    break;
   }
 }
 
